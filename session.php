@@ -10,4 +10,11 @@ $_SESSION['idade'] = '29';
 var_dump($_SESSION);
 
 $nome_completo = $_SESSION['nome'];
-echo 'Nome: '. $nome_completo;
+$idade = $_SESSION['idade'];
+
+echo 'Nome: '. $nome_completo . ' Idade: ' . $idade;
+
+session_destroy();
+
+echo "<br />";
+echo 'Nome: ' . $nome_completo . ' Idade: ' . $idade;
