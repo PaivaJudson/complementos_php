@@ -1,0 +1,19 @@
+{
+    "name": "composer/composer",
+    "description": "funcionamento do composer",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Composer\\Composer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Judson Paiva"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}
